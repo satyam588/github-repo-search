@@ -2,7 +2,8 @@ import "./App.css";
 import React, { Component } from "react";
 import { Octokit } from "octokit";
 const octokit = new Octokit({
-  auth: `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`,
+  login: 'satyam588', 
+  password: 'Rex@123.'
 });
 
 export class App extends Component {
