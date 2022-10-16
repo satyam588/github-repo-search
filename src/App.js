@@ -2,7 +2,7 @@ import "./App.css";
 import React, { Component } from "react";
 import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
 const octokit = new Octokit({
-  auth: `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k`,
+  auth: `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`,
 });
 
 export class App extends Component {
