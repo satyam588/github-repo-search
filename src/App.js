@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { Component } from "react";
-import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
+import { Octokit } from "octokit";
 const octokit = new Octokit({
   auth: `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`,
 });
