@@ -2,7 +2,7 @@ import "./App.css";
 import React, { Component } from "react";
 import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
 const octokit = new Octokit({
-  auth: `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`,
+  auth: `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k`,
 });
 
 export class App extends Component {
@@ -56,11 +56,11 @@ export class App extends Component {
     });
   };
 
-  _displayData = () => {
-    this.state.responseData.map((e) => {
-      console.log(e.name);
-    });
-  };
+  // _displayData = () => {
+  //   this.state.responseData.map((e) => {
+  //     console.log(e.name);
+  //   });
+  // };
 
   _searchEvent = (event) => {
     this.setState({ queryString: event.target.value });
